@@ -6,7 +6,8 @@ const nextConfig = {
     return {
       "/": { page: "/" }
     };
-  }
+  },
+  images: { loader: 'custom' },
 }
 
 module.exports = nextConfig
